@@ -240,6 +240,103 @@ button{
     font-size:1rem;
   }
 }
+/* Средние маленькие телефоны */
+@media (max-height: 750px){
+  .center-content{
+    padding:25px 20px;
+  }
+
+  .center-content h1{
+    font-size:1.5rem;
+  }
+
+  .center-content p{
+    font-size:0.95rem;
+    line-height:1.5;
+  }
+
+  .center-content img{
+    max-width:200px;
+  }
+}
+
+/* Очень маленькие телефоны */
+@media (max-height: 680px){
+  .center-content{
+    transform:scale(0.85);
+  }
+}
+
+/* Прям крошечные экраны */
+@media (max-height: 600px){
+  .center-content{
+    transform:scale(0.75);
+  }
+}
+
+/* Маленькие телефоны */
+@media (max-height: 750px){
+
+  /* Первая страница */
+  .card-box{
+    padding:20px 15px;
+  }
+
+  .card-box h2{
+    font-size:1.2rem;
+  }
+
+  video{
+    max-width:220px;
+  }
+
+  /* Вторая страница */
+  .center-content{
+    padding:25px 20px;
+  }
+
+  .center-content h1{
+    font-size:1.5rem;
+  }
+
+  .center-content p{
+    font-size:0.95rem;
+    line-height:1.5;
+  }
+
+  .center-content img{
+    max-width:200px;
+  }
+}
+
+/* Очень маленькие телефоны */
+@media (max-height: 680px){
+
+  .card-box{
+    transform:scale(0.9);
+    transform-origin: top center;
+  }
+
+  .center-content{
+    transform:scale(0.85);
+    transform-origin: top center;
+  }
+}
+
+/* Прям крошечные */
+@media (max-height: 600px){
+
+  .card-box{
+    transform:scale(0.8);
+  }
+
+  .center-content{
+    transform:scale(0.75);
+  }
+}
+
+
+
 </style>
 </head>
 
@@ -287,20 +384,31 @@ button{
 
 
   <div class="center-content">
-    <h1>Я знал, что ты скажешь ДА! 💖</h1>
-    <img src="LLL.gif" alt="Love">
-    <p>
-      С тобой каждый день становится особенным.
-      Твоя улыбка - моё вдохновение,
-      а твои глаза - самый красивый мир.
-      <br><br>
-      📅 14 февраля <br>
-      ⏰ 19:00 <br>
-      📍 Наше особенное место
-      <br><br>
-      Обещаю - будет нежно, тепло и незабываемо ❤️
-    </p>
-  </div>
+  <h1>Я знал, что ты скажешь ДА! 💖</h1>
+
+  <img src="LLL.gif" alt="Love">
+
+  <p>
+    С тобой каждый день становится особенным.
+    Твоя улыбка - моё вдохновение,
+    а твои глаза - самый красивый мир.
+    <br><br>
+
+    📅 13 февраля <br>
+    ⏰ 21:30 <br>
+    🍽 Steak&Brew <br>
+    📍 
+    <a href="https://2gis.kz/astana/geo/70000001094978820" 
+       target="_blank" 
+       style="color:#fff; text-decoration:underline;">
+       Посмотреть адрес
+    </a>
+
+    <br><br>
+    Обещаю — будет нежно, тепло и незабываемо ❤️
+  </p>
+</div>
+
 </div>
 
 <script>
